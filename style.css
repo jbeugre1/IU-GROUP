@@ -42,3 +42,22 @@ body{
 .header-right {
     float: right;
 }
+
+.formtable {
+  background-color: rgb(184, 184, 184);
+  margin-top: 3cm;
+  margin-left: 10%;
+  margin-right: 70%;
+  margin-bottom: 10cm;
+}
+
+
+.registerclass form {
+  margin-top: 3cm;
+  margin-left: 2cm;
+}
+
+.bodycontent {
+  margin-top: 3cm;
+  margin-left: 2cm;
+}
