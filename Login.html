@@ -7,7 +7,7 @@
 <header>
     <div class="topnav">
         
-        <a class="active" style="font-family:Luminari, fantasy" href="Main.html"> IU - Group </a>
+        <a class="active" style="font-family:Luminari, fantasy" href="Main.php"> IU - Group </a>
         
         <a>Groups</a>
         <a>Events</a>
@@ -21,14 +21,19 @@
 </header>
 
 <div class="bodycontent">
-<form>
+<form action="authenticate.php" method="post">
     <h1>Login</h1>
-    <label>Username: </label>
-    <input type="text"><br><br>
-    <label>Password: </label>
-    <input type="password"><br><br>
+    <div class="form-group">
+        <label>Username: </label>
+        <input type="text" name="user" class="form-control" required><br><br>
+    </div>
+    <div class="form-group">
+        <label>Password: </label>
+        <input type="password" name="password" class="form-control" required><br><br>
+    </div>
     <a href="Register.html">I don't have an account</a><br><br>
-    <input type="Submit">
+    <!-- <input type="Submit"> -->
+    <button type="submit" class="btn btn-primary">Sign In</button>
     
 </form>
 
