@@ -33,10 +33,10 @@ else {
             $row = mysqli_fetch_assoc($result);
             $idvalue = $row["User_ID"];
             $sql2 = "insert into `USER_NORM`(`User_ID`, `User_RegistrationDate`, `User_NumberofGroup`, `User_NumberofGroupcreated`, `User_NumberofEventCreated`) VALUES ($idvalue,'" . date("Y-m-d") . "', 0 , 0 , 0 )";
-            echo $sql2;
+            
             if(mysqli_query($conn, $sql2)){
                 echo"<script>alert('Registration Successful');
-                window.location.replace('Main.html')</script>";
+                window.location.replace('Main.php')</script>";
             }
             else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);

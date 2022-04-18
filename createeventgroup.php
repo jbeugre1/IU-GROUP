@@ -132,10 +132,19 @@ $username = $_SESSION['username'];
                 <option value='24:00'> 24:00 </option>
             </select><br><br>
         </div>
+        
 
         <div class="form-group">
             <label>Event Address: </label>
             <input type="text" name="EventAddress" class="form-control" required><br><br>
+        </div>
+
+        <div class="form-group">
+            <label>Is There a Maximum number of participant: </label>
+            <select id="Ismax" name="Ismax" style="width:200px">
+                <option value="True">True</option>
+                <option value="False">False</option>        
+            </select><br><br>
         </div>
     
         <button type="submit" class="btn btn-primary">Sign In</button>
