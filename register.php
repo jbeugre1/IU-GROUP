@@ -27,8 +27,21 @@ else {
     if ($pass == $confirm_password) {
         $sql = "insert into `USER`(`U_LastName`, `U_FirstName`, `U_Username`, `U_Email`, `U_Password`, `U_Birthday`, `U_Type`) VALUES ('$last_name','$first_name','$user','$email','$pass','$birthday','$U_Type')";
         if (mysqli_query($conn, $sql)) {
-            echo"<script>alert('Registration Successful');
-            window.location.replace('Main.html')</script>";
+
+            $getid = "select `User_ID` from USER where U_Username ='$user'";
+            $result = mysqli_query($conn, $getid);
+            $row = mysqli_fetch_assoc($result);
+            $idvalue = $row["User_ID"];
+            $sql2 = "insert into `USER_NORM`(`User_ID`, `User_RegistrationDate`, `User_NumberofGroup`, `User_NumberofGroupcreated`, `User_NumberofEventCreated`) VALUES ($idvalue,'" . date("Y-m-d") . "', 0 , 0 , 0 )";
+            echo $sql2;
+            if(mysqli_query($conn, $sql2)){
+                echo"<script>alert('Registration Successful');
+                window.location.replace('Main.html')</script>";
+            }
+            else {
+                echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+              }
+            
         }
         else {
             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
