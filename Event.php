@@ -11,7 +11,7 @@
         
         <a>Groups</a>
         <a>Events</a>
-        <form action="register.php" method="post">
+        
 <?php
 session_start();
 $id = $_SESSION['id'];
@@ -20,11 +20,10 @@ $username = $_SESSION['username'];
     if (isset($_SESSION["id"])){
         echo "<a href='ViewEvent.php'> View My events </a>";
         echo "<a href='createeventgroup.php'> Create Event/Groups </a>";
-        echo "<a href='Jointable.php'> Join Event/Groups </a>";
 
         echo "<div class='header-right'>";
-        echo "<a href='Profil.php'>Welcome, $username</a>";
-        echo "<a href='logout.php'>Logout</a>";
+        echo "<a>Welcome, $username</a>";
+        echo "<a href='logout.php'> Logout </a>";
         echo "</div>";
     }
     else{
@@ -46,7 +45,13 @@ $username = $_SESSION['username'];
 
 </header>
 
+<div class="bodycontent">
 
+
+
+
+
+</div>
 
 <footer>
 
@@ -55,5 +60,7 @@ $username = $_SESSION['username'];
 
 
 </body>
-</html>
 
+
+
+</html>

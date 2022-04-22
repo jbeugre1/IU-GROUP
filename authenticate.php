@@ -18,8 +18,6 @@ if ($num==1){
     $id="select User_ID, U_Username from USER where U_Username ='$name' && U_Password = '$pass'";
     $result = mysqli_query($conn, $id);
     $row = mysqli_fetch_assoc($result);
-    echo $row["User_ID"];
-    echo $row["U_Username"];
 
     $_SESSION["id"] = $row["User_ID"];
     $_SESSION["username"] = $row["U_Username"];

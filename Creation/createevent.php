@@ -1,5 +1,10 @@
 <?php
 session_start();
+if (!isset($_SESSION["username"])) {
+    header("location: Login.html");
+}
+
+
 include 'dbconnection.php';
 
 mysqli_select_db($conn,'jbeugre_db');
@@ -23,7 +28,7 @@ $sql = "insert into `EVENT`(`Event_CreatorID`, `Event_Name`, `Event_Date`, `Even
         $sql2 = "insert into `EVENT_INDEPENDENT` (`Event_ID`, `Event_ismaxnumberofUser`, `Event_NumberofUser`) VALUES ($idvalue,'$Ismax', 1)";
         
         if (mysqli_query($conn, $sql2)) {
-            echo"<script>alert('Registration Successful');
+            echo"<script>alert('Action Completed');
          window.location.replace('https://in-info-web4.informatics.iupui.edu/~jbeugre/PROJECT/Main.php')</script>";
         }
         else {

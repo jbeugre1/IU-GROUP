@@ -14,15 +14,21 @@
         
 <?php
 session_start();
+
+if (!isset($_SESSION["username"])) {
+    header("location: Login.html");
+}
+
 $id = $_SESSION['id'];
 $username = $_SESSION['username'];
 
     if (isset($_SESSION["id"])){
-        echo "<a> View My events </a>";
+        echo "<a href='ViewEvent.php'> View My events </a>";
         echo "<a href='createeventgroup.php'> Create Event/Groups </a>";
+        echo "<a href='Jointable.php'> Join Event/Groups </a>";
 
         echo "<div class='header-right'>";
-        echo "<a>Welcome, $username</a>";
+        echo "<a href='Profil.php'>Welcome, $username</a>";
         echo "<a href='logout.php'> Logout </a>";
         echo "</div>";
     }
@@ -76,8 +82,7 @@ $username = $_SESSION['username'];
 
         <div class="form-group">
             <label>Description: </label><br>
-            <textarea id="GroupDescription" name="GroupDescription" rows="4" cols="50">
-            </textarea><br><br>
+            <textarea id="GroupDescription" name="GroupDescription" rows="4" cols="50"></textarea><br><br>
         </div>
     
         <button type="submit" class="btn btn-primary">Sign In</button>
