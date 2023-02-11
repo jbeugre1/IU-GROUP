@@ -10,11 +10,11 @@ This project consists of making a web application working with a database on the
 The widespread usage of smartphones and mobile applications has had a huge impact not only on how people behave in the real world, but also on how groups of users engage with one another when arranging group events. Understanding how users make group event selections and understanding the elements that influence them can provide vital insights for social group research as well as more intelligent approach and software architecture for group event scheduling.
 In this, we have designed a website for IU students who are able to register and login using their IU email ID. Our website enables the students to view the events and groups as well as join the groups and events and attend them as per their interest.
 
-1.2 Problem Solving
+    1.2 Problem Solving
 
 We noticed, that contrary to high school, it’s tougher to create a connection with other students in college and we thought that he was a problem because college unlike other institution bring diversity and multiculturalism. Colleges also organize some recreative activities, but we believe that it’s not enough. So, to find a solution to help student meeting and making new friend with similar interest, we decide to create IU group.
 
-1.3 Target audience
+    1.3 Target audience
 
 After a long brainstorming, we decided to choose IU students, staff members and professors as our target audience. We thought staff member and professor are also part of our Indiana university community since they joined students in some school activity. So, we thought they should be included in our target audience. However, we did not include people of Indianapolis because we thought that most the activities would occur on campus and since they would not have access to some building for example, we decide then to remove them from our target audience.
 
@@ -25,12 +25,12 @@ The website was created while thinking of accessibility measures a user might fa
 
 An unregistered user can see groups and events going on around the campus or off campus activities. The unregistered user cannot participate or sign up for those activities until they have created a profile. When a profile is created and the user successfully logs in, the user may see an additional tab that they can click on. Those new buttons are view my events, create event/groups, and join/event groups. They still have the initial options that an unregistered user sees as well. Those features include groups, events, and IU Group. The main page is IU Group. If the user wants to get a more descriptive information on what IU Group is and different features that are implemented, they can redirect to the IU Group page. When a user is registered, they also have access to event and group management. The user can manage their groups or events by simply pressing on their username on the top right hand of the page.
 
-2.1 IU Group Registration & Login
+    2.1 IU Group Registration & Login
 
 The website is comprised of two buttons on the top right of the page. These buttons are login and register. If a new user wants to create an IU Group event, the user will first need to register to create the desired event. An event cannot be created unless the user is registered. We have not implemented a guest registration section for multiple reasons. The main reason is due to individual’s ability to access information outside of the university. IU Group is strictly designed for IU students, so they do not feel left out. This is what separates our project from any other social media site. To register, the user must use their IU email ID that is provided by the university, otherwise authentication would not be granted.
 Once a user is registered, the user will be redirected to the log in page with missing input. The user will have to input their IU email ID along with the password that they have created. The discretion of saving the password information is up to the user. The site is designed this way to prevent user’s from forgetting their passwords. An email ID and password that is repeated could minimize forgetting information.
 
-2.2 GroupsandEvents
+    2.2 GroupsandEvents
 
 The groups and events page are simple yet have crucial information for a user to successfully join a group or a particular event. If a group is created, the user will see a table with five columns. The columns consist of Group Name, Group Topic, Group Creator, Number of Members, and Group Description. This allows a user to see what group is available and the quantity of seats available. The group will disappear once all seats are fulfilled. If the user is a part of a specific group, the user can access their group information by selecting their username.
 
@@ -46,7 +46,7 @@ Figure 1.1: A host can delete their event if the host no longer wants to host th
 
 In Figure 1.1, jj123 is the host of the science event. The host can delete the event which will delete off the IU Event’s page. The design of this website is to allow students to view events that are occurring the day of or a couple days in advance. We encourage the hosts to find co-hosts or delete an event a week in advance, so students or faculty do not show up to an event that no longer exists.
 
-2.3 CreateandJoinGroupsorEvents
+    2.3 CreateandJoinGroupsorEvents
 
 To create an event, the host will simply input information in the required fields. The required fields are the following:
 • Event Name
@@ -57,7 +57,7 @@ To create an event, the host will simply input information in the required field
 After all the information is inputted, the user is asked if there is a maximum number of participants. This
 allows the user to control the environment of their event. If there is an unlimited number of participants, then the user will select from a drop-down menu and change true to false.
 
-2.4 User Interaction
+    2.4 User Interaction
 
 The user interacts with IU Group’s site by initially creating an account. If an account is not created the user may only view the events. The user scenario below is an example of how a user may interact with our site.
 Samantha just graduated from a small high school in Kentucky. She will be attending IUPUI in the fall. She is nervous because all her friends have decided to stay local. After researching, Samantha has found IU Group and decides to sign up. She creates an account with her IU email ID and looks at upcoming events. She prefers to create her own for other students in the similar situations. Samantha does not want a large group to attend because she feels like students will come with other friends and it may be difficult to create a connection with the students.
@@ -66,13 +66,13 @@ Figure 1.2: User will need to hit the create button to create the friendship gro
 
 Samantha will check her new group that is created by selecting the groups page. Samantha can keep track with how many individuals join their group by keeping an eye out on the number of members. There are many other ways a user may want to create a group, but this scenario displays the importance of our site and how a user may interact with our site to achieve their goal.
 
-2.5 KeyFunctionalities
+    2.5 KeyFunctionalities
 
 The key features and data to IU Group is crucial to gather the user’s attention. IU Group is comprised of a simple design and mapping that allows the user to understand how to navigate through the site successfully. We have included instructions on the register page for users that may not have experience registering to a site before. The instructions provided will ease the user’s ability to follow intuitive actions to use the site properly. The site is designed to attract a user by its appealing yet subtle colors. We have designed the background using HTML and CSS to make the site more appealing and transparent to people that could have visual impairments.
 The key data that is used in IU Group’s site is linked to SQL. To ensure only present or future events display on the page, we have used SQL statements to avoid past events from appearing. SQL was useful for updating the user’s registration and ensuring the user meets the required age limit as well as having a valid university ID.
 
 3. EXPLANATION OF PROJECT COMPONENTS 
-3.1 Creationofdatabase
+    3.1 Creationofdatabase
 
 After choosing IU Group as project, the next step was building a database free of anomalies and redundancy. After a long brainstorming, we started to normalize our data tables and then design the final entity relationship diagram.
 
@@ -85,11 +85,11 @@ The second main table is GROUP which is a simple table which has as attribute th
 The final main table is the EVENT table which is the main purpose of our website. The event are the tools we want to use to create a connection between the people from IUPUI. The EVENT table like the GROUP table has an ID, a creatorID and a name attribute. The difference is that we need a date and place for the event that why we create the attribute Event_Date, Event Hour and Event Place. The last attribute is the Event Type. We wanted to separate the event to avoid from being submerged with a wave of events. So, we decide to create Event_Group and Event_Independent. Event group are event that the creator will send to every member of his group and Event Independent are event that any user can create without being a group creator.
 Event_Group in particular have a link with group to allow action like delete on cascade.
 
-2.2 Languages and/or tools did you use
+    3.2 Languages and/or tools did you use
 
 We used various tools and language to make this project possible. The first and most important tool was PhpMyAdmin. PhpMyAdmin is a free tool that help programmer to manage their database. From our end, IUPUI provides us a phpMyAdmin account which is linked to a student server also provided by IUPUI. After that, we have PHP which is a scripting language that help building a dynamic website and act like a bridge between the server side and the client side. We also have HTML which is the structure of every web page, CSS which is a stylesheet used to style and lay out our web pages. And finally, we have JavaScript, which is a scripting language for client side only and mainly used for front end development unlike PHP which is used for back-end development
 
-2.3 Project components Explanation
+    3.3 Project components Explanation
 
 As explained before, the goal of our project was to connect people from Indiana University and the best strategy that we find was creating a website that will let students, staff or professor to create event of any type where they can meet each other to discuss, having fun and enjoying college life. To maintain a good environment for our website, we decide to let only the user who have an account to create those events which lead us to a login and register page.
 The register page is basically a form that let user register their personal information such as the First name, Last name, username, IU email and Password. And since the form cannot prevent wrong value, we used PHP and MySQL to prevent our users to write wrong information susceptible to create bug in our system. For the email check, we used a query and the php function “stripos” to check if the email sent by the user contain “@iu.edu”. If the stripos function do not find the occurrence of “@iu.edu”, a script will send a popup box to let users know that they need to enter an IU Email. This was an alternative method to the account confirmation by email since we did not know how to send an email with the tool that we used for our project.
