@@ -3,7 +3,7 @@
 
 This project consists of making a web application working with a database on the back-end. The goal of our project was to create a website to help IU member to socialize and create connection with each other. In the first part of this project, we decide what IU member may need and what we can offer with our website. In the second part, we tried to create the website with the feature we thought might help IU member and finally the last is where we were talking about the limit we face during this project.
 
-
+1. MOTIVATION AND AIM OF THE WEBSITE
 
     1.1 Significance and motivation
 
