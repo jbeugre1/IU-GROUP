@@ -83,9 +83,13 @@ Figure 1: IU Group Entity Relationship Diagram
 
 This diagram is simple to understand at first sight, but contain complex information. The main table in this database are the User, Group and Event tables. They are the principal entity our website needs to exist. The User table has basic attributes that we need to collect to identify a user. Those attributes are the Last Name, Username, Password and Date of birth. To make the difference between the different type of user, we created two sub table for the User Table.
 The first table is USER_NORM which supposed to represent every IU student, professor or staff member. This table contains the registration Date, the number of group and number of groups created by a user which can be useful data if we want to do future research on IU member activity.
+
 The other sub table is ADMIN which is just a table to define if the user is an admin of our website or not. The idea was to assign different role to admin and redirect them to a page that is designed to help them complete their tasks. We thought about role like data analysis who will receive filter data or role like staff member that will monitor and check if the website rules are respected.
+
 The second main table is GROUP which is a simple table which has as attribute the group ID which assign automatically, the creator ID which indicate that we need to create a relation between the USER table and GROUP Table. We also have obvious attribute like the name of the group, the topic of the group, the number of user in the group and the maximum of Users the group can accept.
+
 The final main table is the EVENT table which is the main purpose of our website. The event are the tools we want to use to create a connection between the people from IUPUI. The EVENT table like the GROUP table has an ID, a creatorID and a name attribute. The difference is that we need a date and place for the event that why we create the attribute Event_Date, Event Hour and Event Place. The last attribute is the Event Type. We wanted to separate the event to avoid from being submerged with a wave of events. So, we decide to create Event_Group and Event_Independent. Event group are event that the creator will send to every member of his group and Event Independent are event that any user can create without being a group creator.
+
 Event_Group in particular have a link with group to allow action like delete on cascade.
 
     3.2 Languages and/or tools did you use
