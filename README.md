@@ -28,6 +28,7 @@ An unregistered user can see groups and events going on around the campus or off
     2.1 IU Group Registration & Login
 
 The website is comprised of two buttons on the top right of the page. These buttons are login and register. If a new user wants to create an IU Group event, the user will first need to register to create the desired event. An event cannot be created unless the user is registered. We have not implemented a guest registration section for multiple reasons. The main reason is due to individual’s ability to access information outside of the university. IU Group is strictly designed for IU students, so they do not feel left out. This is what separates our project from any other social media site. To register, the user must use their IU email ID that is provided by the university, otherwise authentication would not be granted.
+
 Once a user is registered, the user will be redirected to the log in page with missing input. The user will have to input their IU email ID along with the password that they have created. The discretion of saving the password information is up to the user. The site is designed this way to prevent user’s from forgetting their passwords. An email ID and password that is repeated could minimize forgetting information.
 
     2.2 Groups and Events
@@ -37,6 +38,7 @@ The groups and events page are simple yet have crucial information for a user to
 Figure 1: A user's visualization when selecting IU Group's page.
 
 In Figure 1, there are three groups a user may join. Two of those groups will be discussing books. The reason the user can see the quantity of seats available rather than “available” or “full” is to help users pick what they are most comfortable with. For example, if a user is more of an introvert, the user would probably be more comfortable with a smaller crowd than a larger crowd.
+
 The event page is similar to the IU Group’s page. The event page consists of six columns. Those columns include Event ID, Event Name, Event Date, Event Hour, Event Place, and Event host. Our project was carefully developed. We made sure to eliminate any bugs and keep confusion at a minimal. If an event has passed, the event no longer displays on the event page. This eliminates any confusion, and the user can see the active events they have selected to attend. If you cannot attend an event or group, you can remove it in management page. If you are the host and cannot find a co-host to run your event in an emergency, you too can delete your event.
 
 
@@ -60,6 +62,7 @@ allows the user to control the environment of their event. If there is an unlimi
     2.4 User Interaction
 
 The user interacts with IU Group’s site by initially creating an account. If an account is not created the user may only view the events. The user scenario below is an example of how a user may interact with our site.
+
 Samantha just graduated from a small high school in Kentucky. She will be attending IUPUI in the fall. She is nervous because all her friends have decided to stay local. After researching, Samantha has found IU Group and decides to sign up. She creates an account with her IU email ID and looks at upcoming events. She prefers to create her own for other students in the similar situations. Samantha does not want a large group to attend because she feels like students will come with other friends and it may be difficult to create a connection with the students.
 
 Figure 1.2: User will need to hit the create button to create the friendship group.
