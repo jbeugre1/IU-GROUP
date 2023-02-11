@@ -3,7 +3,7 @@
 
 This project consists of making a web application working with a database on the back-end. The goal of our project was to create a website to help IU member to socialize and create connection with each other. In the first part of this project, we decide what IU member may need and what we can offer with our website. In the second part, we tried to create the website with the feature we thought might help IU member and finally the last is where we were talking about the limit we face during this project.
 
-1. MOTIVATION AND AIM OF THE WEBSITE
+## 1. MOTIVATION AND AIM OF THE WEBSITE
 
     1.1 Significance and motivation
 
@@ -18,7 +18,7 @@ We noticed, that contrary to high school, it’s tougher to create a connection 
 
 After a long brainstorming, we decided to choose IU students, staff members and professors as our target audience. We thought staff member and professor are also part of our Indiana university community since they joined students in some school activity. So, we thought they should be included in our target audience. However, we did not include people of Indianapolis because we thought that most the activities would occur on campus and since they would not have access to some building for example, we decide then to remove them from our target audience.
 
-2. IU GROUP DESCRIPTION
+## 2. IU GROUP DESCRIPTION
 
 IU Group allows Indiana University students to interact with one another, meet new people, and get involved. The site is designed to allow users to navigate freely through the site with minimal confusion. Initially, we created the site with many complexes features that the user may have trouble following through the site. To minimize complicated features, the site was illustrated on a piece of paper and thought carefully about how our design and functionality would look like.
 The website was created while thinking of accessibility measures a user might face. For example, the background of the site was carefully reviewed and selected. Initially, the background color was a bit darker and consisted of solid black font with instructions. We figured this may challenge individuals with visual disabilities such as color blindness. To fix this issue, the background image was put in an application that allowed the developers to change the contrast and brightness of the image.
@@ -71,7 +71,7 @@ Samantha will check her new group that is created by selecting the groups page. 
 The key features and data to IU Group is crucial to gather the user’s attention. IU Group is comprised of a simple design and mapping that allows the user to understand how to navigate through the site successfully. We have included instructions on the register page for users that may not have experience registering to a site before. The instructions provided will ease the user’s ability to follow intuitive actions to use the site properly. The site is designed to attract a user by its appealing yet subtle colors. We have designed the background using HTML and CSS to make the site more appealing and transparent to people that could have visual impairments.
 The key data that is used in IU Group’s site is linked to SQL. To ensure only present or future events display on the page, we have used SQL statements to avoid past events from appearing. SQL was useful for updating the user’s registration and ensuring the user meets the required age limit as well as having a valid university ID.
 
-3. EXPLANATION OF PROJECT COMPONENTS 
+## 3. EXPLANATION OF PROJECT COMPONENTS 
     3.1 Creationofdatabase
 
 After choosing IU Group as project, the next step was building a database free of anomalies and redundancy. After a long brainstorming, we started to normalize our data tables and then design the final entity relationship diagram.
