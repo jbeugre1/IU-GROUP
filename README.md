@@ -5,7 +5,7 @@ This project consists of making a web application working with a database on the
 
 1. MOTIVATION AND AIM OF THE WEBSITE 
 
-1.1 Significance and motivation
+    1.1 Significance and motivation
 
 The widespread usage of smartphones and mobile applications has had a huge impact not only on how people behave in the real world, but also on how groups of users engage with one another when arranging group events. Understanding how users make group event selections and understanding the elements that influence them can provide vital insights for social group research as well as more intelligent approach and software architecture for group event scheduling.
 In this, we have designed a website for IU students who are able to register and login using their IU email ID. Our website enables the students to view the events and groups as well as join the groups and events and attend them as per their interest.
