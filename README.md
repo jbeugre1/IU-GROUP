@@ -35,6 +35,8 @@ Once a user is registered, the user will be redirected to the log in page with m
 
 The groups and events page are simple yet have crucial information for a user to successfully join a group or a particular event. If a group is created, the user will see a table with five columns. The columns consist of Group Name, Group Topic, Group Creator, Number of Members, and Group Description. This allows a user to see what group is available and the quantity of seats available. The group will disappear once all seats are fulfilled. If the user is a part of a specific group, the user can access their group information by selecting their username.
 
+![alt text](https://github.com/jbeugre1/IU-GROUP/blob/main/image/1.png)
+
 Figure 1: A user's visualization when selecting IU Group's page.
 
 In Figure 1, there are three groups a user may join. Two of those groups will be discussing books. The reason the user can see the quantity of seats available rather than “available” or “full” is to help users pick what they are most comfortable with. For example, if a user is more of an introvert, the user would probably be more comfortable with a smaller crowd than a larger crowd.
@@ -42,6 +44,7 @@ In Figure 1, there are three groups a user may join. Two of those groups will be
 The event page is similar to the IU Group’s page. The event page consists of six columns. Those columns include Event ID, Event Name, Event Date, Event Hour, Event Place, and Event host. Our project was carefully developed. We made sure to eliminate any bugs and keep confusion at a minimal. If an event has passed, the event no longer displays on the event page. This eliminates any confusion, and the user can see the active events they have selected to attend. If you cannot attend an event or group, you can remove it in management page. If you are the host and cannot find a co-host to run your event in an emergency, you too can delete your event.
 
 
+![alt text](https://github.com/jbeugre1/IU-GROUP/blob/main/image/1.png)
 
 Figure 1.1: A host can delete their event if the host no longer wants to host the event.
 
@@ -64,6 +67,8 @@ allows the user to control the environment of their event. If there is an unlimi
 The user interacts with IU Group’s site by initially creating an account. If an account is not created the user may only view the events. The user scenario below is an example of how a user may interact with our site.
 
 Samantha just graduated from a small high school in Kentucky. She will be attending IUPUI in the fall. She is nervous because all her friends have decided to stay local. After researching, Samantha has found IU Group and decides to sign up. She creates an account with her IU email ID and looks at upcoming events. She prefers to create her own for other students in the similar situations. Samantha does not want a large group to attend because she feels like students will come with other friends and it may be difficult to create a connection with the students.
+
+![alt text](https://github.com/jbeugre1/IU-GROUP/blob/main/image/1.png)
 
 Figure 1.2: User will need to hit the create button to create the friendship group.
 
