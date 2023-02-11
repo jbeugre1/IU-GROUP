@@ -71,7 +71,7 @@ Samantha will check her new group that is created by selecting the groups page. 
 The key features and data to IU Group is crucial to gather the user’s attention. IU Group is comprised of a simple design and mapping that allows the user to understand how to navigate through the site successfully. We have included instructions on the register page for users that may not have experience registering to a site before. The instructions provided will ease the user’s ability to follow intuitive actions to use the site properly. The site is designed to attract a user by its appealing yet subtle colors. We have designed the background using HTML and CSS to make the site more appealing and transparent to people that could have visual impairments.
 The key data that is used in IU Group’s site is linked to SQL. To ensure only present or future events display on the page, we have used SQL statements to avoid past events from appearing. SQL was useful for updating the user’s registration and ensuring the user meets the required age limit as well as having a valid university ID.
 
-3 EXPLANATION OF PROJECT COMPONENTS 
+3. EXPLANATION OF PROJECT COMPONENTS 
 3.1 Creationofdatabase
 
 After choosing IU Group as project, the next step was building a database free of anomalies and redundancy. After a long brainstorming, we started to normalize our data tables and then design the final entity relationship diagram.
