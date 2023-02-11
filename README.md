@@ -44,7 +44,7 @@ In Figure 1, there are three groups a user may join. Two of those groups will be
 The event page is similar to the IU Group’s page. The event page consists of six columns. Those columns include Event ID, Event Name, Event Date, Event Hour, Event Place, and Event host. Our project was carefully developed. We made sure to eliminate any bugs and keep confusion at a minimal. If an event has passed, the event no longer displays on the event page. This eliminates any confusion, and the user can see the active events they have selected to attend. If you cannot attend an event or group, you can remove it in management page. If you are the host and cannot find a co-host to run your event in an emergency, you too can delete your event.
 
 
-![alt text](https://github.com/jbeugre1/IU-GROUP/blob/main/image/1.png)
+![alt text](https://github.com/jbeugre1/IU-GROUP/blob/main/image/2.png)
 
 Figure 1.1: A host can delete their event if the host no longer wants to host the event.
 
@@ -68,8 +68,7 @@ The user interacts with IU Group’s site by initially creating an account. If a
 
 Samantha just graduated from a small high school in Kentucky. She will be attending IUPUI in the fall. She is nervous because all her friends have decided to stay local. After researching, Samantha has found IU Group and decides to sign up. She creates an account with her IU email ID and looks at upcoming events. She prefers to create her own for other students in the similar situations. Samantha does not want a large group to attend because she feels like students will come with other friends and it may be difficult to create a connection with the students.
 
-![alt text](https://github.com/jbeugre1/IU-GROUP/blob/main/image/1.png)
-
+![alt text](https://github.com/jbeugre1/IU-GROUP/blob/main/image/4.png)
 Figure 1.2: User will need to hit the create button to create the friendship group.
 
 Samantha will check her new group that is created by selecting the groups page. Samantha can keep track with how many individuals join their group by keeping an eye out on the number of members. There are many other ways a user may want to create a group, but this scenario displays the importance of our site and how a user may interact with our site to achieve their goal.
@@ -84,6 +83,7 @@ The key data that is used in IU Group’s site is linked to SQL. To ensure only 
 
 After choosing IU Group as project, the next step was building a database free of anomalies and redundancy. After a long brainstorming, we started to normalize our data tables and then design the final entity relationship diagram.
 
+![alt text](https://github.com/jbeugre1/IU-GROUP/blob/main/image/5.png)
 Figure 1: IU Group Entity Relationship Diagram
 
 This diagram is simple to understand at first sight, but contain complex information. The main table in this database are the User, Group and Event tables. They are the principal entity our website needs to exist. The User table has basic attributes that we need to collect to identify a user. Those attributes are the Last Name, Username, Password and Date of birth. To make the difference between the different type of user, we created two sub table for the User Table.
@@ -111,6 +111,7 @@ The second page was the login and it was easier to create than the register. The
 
 The use of session helped us preventing some user to access some page they are not supposed to open. To make it possible we wrote a function that check if the user id that we create during the login exist. So, if condition is false, it will redirect the user to the login page. We also use the session to modify the bar title so that when users are connected, they can easy access to the page reserved to our website member.
 
+![alt text](https://github.com/jbeugre1/IU-GROUP/blob/main/image/6.png)
 Figure 2: Title Bar
 
 As you can see from above, 5 new links appeared on our title bar after users successfully log in. We wrote a simple code to prevent users to use the 5 new links just by typing their link when they are not log in.
