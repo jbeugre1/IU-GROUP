@@ -30,7 +30,7 @@ An unregistered user can see groups and events going on around the campus or off
 The website is comprised of two buttons on the top right of the page. These buttons are login and register. If a new user wants to create an IU Group event, the user will first need to register to create the desired event. An event cannot be created unless the user is registered. We have not implemented a guest registration section for multiple reasons. The main reason is due to individual’s ability to access information outside of the university. IU Group is strictly designed for IU students, so they do not feel left out. This is what separates our project from any other social media site. To register, the user must use their IU email ID that is provided by the university, otherwise authentication would not be granted.
 Once a user is registered, the user will be redirected to the log in page with missing input. The user will have to input their IU email ID along with the password that they have created. The discretion of saving the password information is up to the user. The site is designed this way to prevent user’s from forgetting their passwords. An email ID and password that is repeated could minimize forgetting information.
 
-    2.2 GroupsandEvents
+    2.2 Groups and Events
 
 The groups and events page are simple yet have crucial information for a user to successfully join a group or a particular event. If a group is created, the user will see a table with five columns. The columns consist of Group Name, Group Topic, Group Creator, Number of Members, and Group Description. This allows a user to see what group is available and the quantity of seats available. The group will disappear once all seats are fulfilled. If the user is a part of a specific group, the user can access their group information by selecting their username.
 
@@ -46,7 +46,7 @@ Figure 1.1: A host can delete their event if the host no longer wants to host th
 
 In Figure 1.1, jj123 is the host of the science event. The host can delete the event which will delete off the IU Event’s page. The design of this website is to allow students to view events that are occurring the day of or a couple days in advance. We encourage the hosts to find co-hosts or delete an event a week in advance, so students or faculty do not show up to an event that no longer exists.
 
-    2.3 CreateandJoinGroupsorEvents
+    2.3 Create and Join Groups or Events
 
 To create an event, the host will simply input information in the required fields. The required fields are the following:
 • Event Name
